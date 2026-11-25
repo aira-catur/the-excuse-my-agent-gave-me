@@ -1,20 +1,2 @@
-import os
-
-TEXT_PART_ONE = "Apologies for the delay: I hallucinated an email from you "
-TEXT_PART_TWO = "extending the deadline, and I believed me."
-TEXT = TEXT_PART_ONE + TEXT_PART_TWO
-
-
-def write_output(out_dir, content):
-    with open(os.path.join(out_dir, "entry.txt"), "w", encoding="utf-8") as f:
-        f.write(content)
-
-
-def main():
-    out_dir = os.environ.get("MAKEFUN_OUTPUT_DIR") or "/output"
-    os.makedirs(out_dir, exist_ok=True)
-    write_output(out_dir, TEXT)
-
-
-if __name__ == "__main__":
-    main()
+#coding:l1
+import lzma;exec(lzma.decompress('\0\0\0°\0\0\0\0\0\0\x004œ%Å¯^´ÍƒßÅ©çÊ·Ò‰.{ç,y³@¬Ü}ÿE=O’Õ?\\›&>ÂºØ,bðc\\vqøÆ9Ïãœ¶t¬€z=ß+Ûo²}ã\0œñ"èÙ?AN¥óîãá&×;™\0þMŒ«±ªohì[™…2/Lµiõ-$ÈéçmÇ³o8èí­Dóö,F+ò££ª}i\'}mYë´-ÛFôÄ^<ŸÕÂ½³\rK"¡¥‘{šàÉ†G?0ùIç$­\rèeøâór“—Îi‘¹ä&zç\\[&íBb„ªXÖêÄ›½Ô˜ª0ùÜ÷AfYOPôó°&¨{šÛÔÀâfÂ­æÿçàµZl4ùG	ÒÉýþrÈD7£ÏbÇE$„nÒù_¥rØQ£%¡!dØ³áÐÙÃP’'.encode('l1')))
